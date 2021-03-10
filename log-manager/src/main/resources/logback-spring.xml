@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="10 seconds">
+    <!-- 指定包输出级别 -->
+    <logger name="com.xtt" level="DEBUG" />
+    <logger name="org.springframework" level="DEBUG" />
+    <springProxy scope="context" name="APP_NAME" source="spring.application.name" />
+
+
+</configuration>

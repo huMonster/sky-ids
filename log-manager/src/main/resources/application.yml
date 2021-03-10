@@ -1,0 +1,51 @@
+server:
+  port: 7002
+  servlet:
+    context-path: /logs
+# 日志配置
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: /var/log/${spring.application.name}
+  level:
+    root: ERROR
+    com.xtt: DEBUG
+    org.springframework: ERROR
+    org.springframework.boot.autoconfigure: INFO
+
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: sky-log
+  kafka:
+    bootstrap-servers: 124.71.200.158:9092
+    producer:
+      # 批量大小，即一次最多发送的数据量
+      batch-size: 16785
+      # 重试次数
+      retries: 1
+      # 缓冲区 32M
+      buffer-memory: 33554432
+      # 提交延时 ms
+      linger: 1
+      # 最大请求数
+      max_request_size: 10485760
+    consumer:
+      enable-auto-commit: false
+      auto-offset-reset: earliest
+      group-id: log-skyids-group1
+      max-poll-records: 2000
+      #手动提交设置与poll的心跳数
+      max-poll-interval: 10000
+      session-timeout: 6000
+      fetch_max_bytes: 10485760
+    listener:
+      #是否开启批量消费，true表示批量消费
+      batch-listener: true
+      #设置消费的线程数
+      concurrency: 4
+      #自动提交设置，如果消息队列中没有消息，等待timeout毫秒后，调用poll()方法。如果队列中有消息，立即消费消息，每次消费的消息的多少可以通过max.poll.records配置。
+      poll-timeout: 3000
+      topics: log-exception,log-operation,log-broadcast,log-onoff
