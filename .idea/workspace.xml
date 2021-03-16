@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7bc8d0e-f27b-4ac5-b587-761e24cb3b81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/web/log/kafka/KafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/web/operationlog/entity/UserLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/config/security/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/log/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/service/ILogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/enums/LogDetailEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/enums/OperationUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/enums/Platform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/util/SnowflakeIdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/xtt/web/log/LogAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,19 +24,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/IdsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/IdsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log-manager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/LogManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/LogManagerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/spring/config/kafka/ConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/spring/config/kafka/KafkaInitialConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/spring/config/kafka/ProducerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-manager/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-manager/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/web/log/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/kafka/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/web/operationlog/entity/UserLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/operationlog/entity/UserLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log-manager/src/test/java/com/xtt/LogManagerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/test/java/com/xtt/LogManagerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
@@ -40,7 +52,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/lib">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/log-manager">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/web">
       <ProjectState />
     </projectState>
   </component>
@@ -50,12 +68,33 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/lib">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="sky-ids" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sky-ids" type="f1a62948:ProjectNode" />
+                <item name="lib" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sky-ids" type="f1a62948:ProjectNode" />
+                <item name="lib" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sky-ids" type="f1a62948:ProjectNode" />
+                <item name="lib" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -68,6 +107,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -93,15 +133,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="external.system.task.project.file.to.start" value="D:/gradle/gradle-6.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xtt.spring.config.kafka" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\IDEA-CODE\sky-ids\web" />
+      <recent name="D:\Code\IDEA-CODE\sky-ids\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,27 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.IdsApplication">
-    <configuration name="LogManagerApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.xtt.LogManagerApplicationTests.contextLoads&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":log-manager:cleanTest" />
-            <option value=":log-manager:test" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.sky-ids:lib [build]">
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -154,55 +179,47 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LogManagerApplicationTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sky-ids.log-manager.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xtt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xtt" />
-      <option name="MAIN_CLASS_NAME" value="com.xtt.LogManagerApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="sky-ids:lib [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lib" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="LogManagerApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sky-ids.log-manager.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xtt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xtt" />
-      <option name="MAIN_CLASS_NAME" value="com.xtt.LogManagerApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogManagerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sky-ids.log-manager.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xtt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xtt" />
-      <option name="MAIN_CLASS_NAME" value="com.xtt.LogManagerApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="sky-ids:lib [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lib" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="IdsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sky-ids.ids.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xtt.IdsApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xtt.ids.IdsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,12 +231,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xtt.web.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.sky-ids:lib [clean]" />
+      <item itemvalue="Gradle.sky-ids:lib [build]" />
+      <item itemvalue="Spring Boot.IdsApplication" />
+      <item itemvalue="Spring Boot.LogManagerApplication" />
+      <item itemvalue="Spring Boot.WebApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LogManagerApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.LogManagerApplicationTests (1)" />
-        <item itemvalue="JUnit.LogManagerApplicationTests" />
-        <item itemvalue="Gradle.LogManagerApplicationTests.contextLoads" />
+        <item itemvalue="Gradle.sky-ids:lib [build]" />
+        <item itemvalue="Gradle.sky-ids:lib [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -238,8 +267,17 @@
       <workItem from="1615512498941" duration="3649000" />
       <workItem from="1615527662827" duration="1279000" />
       <workItem from="1615771712366" duration="5000000" />
-      <workItem from="1615857877622" duration="353000" />
+      <workItem from="1615857877622" duration="14137000" />
+      <workItem from="1615880791917" duration="4815000" />
     </task>
+    <task id="LOCAL-00001" summary="【新增】ids主业务服务">
+      <created>1615858590369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615858590369</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,5 +295,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="【新增】ids主业务服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="【新增】ids主业务服务" />
   </component>
 </project>

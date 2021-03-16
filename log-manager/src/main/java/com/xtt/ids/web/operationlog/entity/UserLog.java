@@ -1,4 +1,4 @@
-package com.xtt.web.operationlog.entity;
+package com.xtt.ids.web.operationlog.entity;
 
 import lombok.Data;
 

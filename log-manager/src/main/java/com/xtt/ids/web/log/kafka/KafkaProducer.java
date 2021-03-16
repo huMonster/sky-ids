@@ -1,4 +1,4 @@
-package com.xtt.web.log.kafka;
+package com.xtt.ids.web.log.kafka;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;

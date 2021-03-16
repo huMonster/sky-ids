@@ -22,7 +22,7 @@ apply plugin: 'io.spring.dependency-management'
 // 项目信息
 group = 'com.xtt'
 version = '1.0'
-description = '创维云平台日志服务'
+description = '云平台日志服务'
 mainClassName = 'com.xtt.LogManagerApplication'
 
 //依赖包

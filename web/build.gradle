@@ -1,0 +1,33 @@
+// 构建脚本
+buildscript {
+    // 全局变量
+    ext {
+        springBootVersion = '2.1.0.RELEASE'
+        springVersion = '5.1.2.RELEASE'
+        lombok = '1.18.2'
+        codec = '1.11'
+        lang3 = '3.8.1'
+        dataRedis = '2.1.2.RELEASE'
+        oauth2Version = '2.3.4.RELEASE'
+        reactorVersion = "3.2.2.RELEASE"
+    }
+}
+group = 'com.xtt'
+version '1.0'
+description = '云平台spring模块'
+
+dependencies {
+
+    compile project(':lib')
+
+    compile "org.springframework.security:spring-security-core:${springVersion}",
+//            "org.springframework.security.oauth:spring-security-oauth2:${oauth2Version}",
+//            "org.springframework.data:spring-data-redis:${dataRedis}",
+            "io.projectreactor:reactor-core:${reactorVersion}",
+            "org.springframework:spring-web:${springVersion}",
+            "org.apache.commons:commons-lang3:${lang3}",
+            "commons-codec:commons-codec:${codec}"
+
+    annotationProcessor "org.projectlombok:lombok:${lombok}"
+    compileOnly "org.projectlombok:lombok:${lombok}"
+}

@@ -5,10 +5,14 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="lib.main" target="1.8" />
+      <module name="lib.test" target="1.8" />
       <module name="sky-ids.log-.main" target="1.8" />
       <module name="sky-ids.log-.test" target="1.8" />
       <module name="sky-ids.main" target="1.8" />
       <module name="sky-ids.test" target="1.8" />
+      <module name="web.main" target="1.8" />
+      <module name="web.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

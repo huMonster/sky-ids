@@ -1,3 +1,5 @@
 rootProject.name = 'sky-ids'
 include 'log-manager'
 include 'ids'
+include 'lib'
+include 'web'

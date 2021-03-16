@@ -1,0 +1,38 @@
+// 构建脚本
+buildscript {
+    // 全局变量
+    ext {
+        mybatis = '3.5.0'
+        lombok = '1.18.8'
+        lang3 = '3.8.1'
+        jackson = '2.9.7'
+        gson = '2.7'
+        commonsCodec = '1.9'
+        pdfbox = '2.0.16'
+        servlet='4.0.2'
+        bcprov = '1.55'
+    }
+
+}
+
+group 'com.skyworth'
+version '1.0'
+description = '云平台lib'
+
+dependencies {
+    compile "org.apache.commons:commons-lang3:${lang3}",
+            "com.fasterxml.jackson.core:jackson-core:${jackson}",
+            "com.fasterxml.jackson.core:jackson-databind:${jackson}",
+            "com.fasterxml.jackson.module:jackson-module-parameter-names:${jackson}",
+            "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:${jackson}",
+            "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:${jackson}",
+            "org.mybatis:mybatis:${mybatis}",
+            "com.google.code.gson:gson:${gson}",
+            "commons-codec:commons-codec:${commonsCodec}",
+            "jakarta.servlet:jakarta.servlet-api:${servlet}",
+            "org.apache.pdfbox:pdfbox:${pdfbox}",
+            "org.bouncycastle:bcprov-jdk15on:${bcprov}"
+
+    annotationProcessor "org.projectlombok:lombok:${lombok}"
+    compileOnly "org.projectlombok:lombok:${lombok}"
+}
