@@ -1,52 +1,27 @@
-buildscript {
-    allprojects {
-        gradle.projectsEvaluated {
-            allprojects {
-                jar { enabled = true }
-            }
+group 'com.xtt'
+
+subprojects {
+    // 统一引入 java 插件和版本指定
+    apply plugin: "java"
+    sourceCompatibility = 1.8
+
+    buildscript {
+        // 构建插件仓库，顺序调用
+        repositories {
+            maven { url 'https://maven.aliyun.com/repository/public/' }
+            maven { url 'https://mirrors.huaweicloud.com/repository/maven/' }
+            maven { url 'https://mirrors.huaweicloud.com/repository/maven/huaweicloudsdk/' }
         }
     }
-}
 
-plugins {
-    id 'org.springframework.boot' version '2.4.3'
-}
-
-allprojects {
-
+    // 构建仓库，顺序调用
     repositories {
         maven { url 'https://maven.aliyun.com/repository/public/' }
         maven { url 'https://mirrors.huaweicloud.com/repository/maven/' }
         maven { url 'https://mirrors.huaweicloud.com/repository/maven/huaweicloudsdk/' }
     }
 
-    group 'com.xtt'
-    version '1.0-SNAPSHOT'
-
-    apply plugin: 'java'
-    apply plugin: 'idea'
-
-    apply plugin: "org.springframework.boot"
-    apply plugin: "io.spring.dependency-management"
-
-    bootJar {
-        enabled = false
-    }
-}
-
-subprojects {
-    ext {
-        springcloudVersion = "Greewich.SR2"
-    }
-    sourceCompatibility = 1.8
-
-    dependencies {
-        implementation 'org.springframework.boot:spring-boot-starter-web'
-        compileOnly 'org.projectlombok:lombok'
-        annotationProcessor 'org.projectlombok:lombok'
-        testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    }
-    test {
-        useJUnitPlatform()
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
     }
 }

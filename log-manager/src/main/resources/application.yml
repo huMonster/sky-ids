@@ -24,14 +24,13 @@ spring:
     producer:
       # 批量大小，即一次最多发送的数据量
       batch-size: 16785
-      # 重试次数
+      # 客户端将发送失败的记录重新发送的次数
       retries: 1
       # 缓冲区 32M
       buffer-memory: 33554432
-      # 提交延时 ms
-      linger: 1
-      # 最大请求数
-      max_request_size: 10485760
+      # 编解码方式
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
     consumer:
       enable-auto-commit: false
       auto-offset-reset: earliest
