@@ -28,7 +28,7 @@ mainClassName = 'com.xtt.LogManagerApplication'
 //依赖包
 dependencies {
 
-//    compile project(':lib')
+    compile project(':lib')
 //    compile project(':webmvc')
 
     compile('org.springframework.boot:spring-boot-starter-web') {

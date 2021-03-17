@@ -1,6 +1,7 @@
 package com.xtt.web.log;
 
 import com.xtt.lib.enums.LogDetailEnum;
+import com.xtt.lib.enums.OperationType;
 import com.xtt.lib.enums.OperationUnit;
 import com.xtt.lib.enums.Platform;
 
@@ -27,7 +28,7 @@ public @interface LogAnnotation {
     /**
      * 操作类型(enum):主要是select,insert,update,delete
      */
-    LogDetailEnum operationType() default LogDetailEnum.UNKNOWN;
+    OperationType operationType() default OperationType.UNKNOWN;
 
     /**
      * 被操作的模块

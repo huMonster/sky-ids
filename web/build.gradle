@@ -18,15 +18,15 @@ description = '云平台spring模块'
 
 dependencies {
 
-    compile project(':lib')
-
-    compile "org.springframework.security:spring-security-core:${springVersion}",
+    compile "org.springframework:spring-web:${springVersion}",
+//    "org.springframework.security:spring-security-core:${springVersion}",
 //            "org.springframework.security.oauth:spring-security-oauth2:${oauth2Version}",
 //            "org.springframework.data:spring-data-redis:${dataRedis}",
             "io.projectreactor:reactor-core:${reactorVersion}",
-            "org.springframework:spring-web:${springVersion}",
             "org.apache.commons:commons-lang3:${lang3}",
             "commons-codec:commons-codec:${codec}"
+    compile project(':lib')
+
 
     annotationProcessor "org.projectlombok:lombok:${lombok}"
     compileOnly "org.projectlombok:lombok:${lombok}"

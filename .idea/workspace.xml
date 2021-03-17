@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sky-ids.ids:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7bc8d0e-f27b-4ac5-b587-761e24cb3b81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/config/security/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/log/aspect/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/service/ILogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/enums/LogDetailEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/enums/OperationUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/enums/Platform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/util/SnowflakeIdWorker.java" afterDir="false" />
+    <list default="true" id="b7bc8d0e-f27b-4ac5-b587-761e24cb3b81" name="Default Changelist" comment="【新增】web服务、lib服务">
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/entity/OperationLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/enums/OperationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/exception/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/generic/RestResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/util/NetworkUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/controller/DeviceLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/entity/BaseDeviceLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/entity/DeviceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/service/DeviceLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/service/impl/DeviceLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/util/FileUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/xtt/web/log/LogAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
@@ -29,18 +35,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/IdsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/IdsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ids/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-manager/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/IdsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/IdsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/log/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/log/aspect/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/service/ILogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/service/ILogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/test/java/com/xtt/IdsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/test/java/com/xtt/ids/IdsApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log-manager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/web/log/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/kafka/KafkaProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/web/operationlog/entity/UserLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/operationlog/entity/UserLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/kafka/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/operationlog/entity/UserLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/operationlog/entity/UserLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log-manager/src/test/java/com/xtt/LogManagerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/test/java/com/xtt/LogManagerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/web/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/xtt/web/log/LogAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/xtt/web/log/LogAnnotation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +77,9 @@
         <task path="$PROJECT_DIR$/lib">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/ids">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -81,18 +90,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="sky-ids" type="f1a62948:ProjectNode" />
-                <item name="lib" type="2d1252cf:ModuleNode" />
+                <item name="ids" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="sky-ids" type="f1a62948:ProjectNode" />
-                <item name="lib" type="2d1252cf:ModuleNode" />
+                <item name="ids" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="sky-ids" type="f1a62948:ProjectNode" />
-                <item name="lib" type="2d1252cf:ModuleNode" />
+                <item name="ids" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -108,6 +117,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -133,18 +143,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="external.system.task.project.file.to.start" value="D:/gradle/gradle-6.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xtt.ids.web.log.devicelog.entity" />
       <recent name="com.xtt.spring.config.kafka" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\IDEA-CODE\sky-ids\log-manager\src\main\java\com\xtt\ids\web\log\devicelog" />
       <recent name="D:\Code\IDEA-CODE\sky-ids\web" />
       <recent name="D:\Code\IDEA-CODE\sky-ids\lib" />
     </key>
@@ -161,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.sky-ids:lib [build]">
+  <component name="RunManager" selected="Spring Boot.IdsApplication">
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -179,10 +191,10 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="sky-ids:lib [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="sky-ids:ids [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/lib" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ids" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -190,7 +202,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="bootJar" />
           </list>
         </option>
         <option name="vmOptions" value="" />
@@ -198,28 +210,16 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="sky-ids:lib [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/lib" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="IdsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="IdsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="sky-ids.ids.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xtt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xtt.ids.IdsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,24 +231,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="web.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xtt.web.WebApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Gradle.sky-ids:lib [clean]" />
-      <item itemvalue="Gradle.sky-ids:lib [build]" />
-      <item itemvalue="Spring Boot.IdsApplication" />
       <item itemvalue="Spring Boot.LogManagerApplication" />
-      <item itemvalue="Spring Boot.WebApplication" />
+      <item itemvalue="Spring Boot.IdsApplication" />
+      <item itemvalue="Gradle.sky-ids:ids [bootJar]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.sky-ids:lib [build]" />
-        <item itemvalue="Gradle.sky-ids:lib [clean]" />
+        <item itemvalue="Spring Boot.IdsApplication" />
+        <item itemvalue="Gradle.sky-ids:ids [bootJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +259,8 @@
       <workItem from="1615527662827" duration="1279000" />
       <workItem from="1615771712366" duration="5000000" />
       <workItem from="1615857877622" duration="14137000" />
-      <workItem from="1615880791917" duration="4815000" />
+      <workItem from="1615880791917" duration="5067000" />
+      <workItem from="1615945363596" duration="19701000" />
     </task>
     <task id="LOCAL-00001" summary="【新增】ids主业务服务">
       <created>1615858590369</created>
@@ -277,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615858590369</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="【新增】web服务、lib服务">
+      <created>1615890690613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615890690613</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +297,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="【新增】ids主业务服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="【新增】ids主业务服务" />
+    <MESSAGE value="【新增】web服务、lib服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="【新增】web服务、lib服务" />
   </component>
 </project>
