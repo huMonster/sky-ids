@@ -7,46 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7bc8d0e-f27b-4ac5-b587-761e24cb3b81" name="Default Changelist" comment="【新增】web服务、lib服务">
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/entity/OperationLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/enums/OperationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/exception/ErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/generic/RestResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/util/NetworkUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/controller/DeviceLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/entity/BaseDeviceLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/entity/DeviceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/service/DeviceLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/service/impl/DeviceLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/util/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/exception/AbstractErrorCodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/com/xtt/lib/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/elasticsearch/service/ElasticSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/elasticsearch/service/impl/ElasticSearchImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/IdsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/IdsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/log/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/log/aspect/LogAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/service/ILogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/service/ILogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ids/src/test/java/com/xtt/IdsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/test/java/com/xtt/ids/IdsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/IdsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/log/IdsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/config/security/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/log/config/security/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/log/web/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/log/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/log/web/log/aspect/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/main/java/com/xtt/ids/web/service/ILogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/main/java/com/xtt/log/web/service/ILogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ids/src/test/java/com/xtt/ids/IdsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ids/src/test/java/com/xtt/log/IdsApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log-manager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/kafka/KafkaProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/operationlog/entity/UserLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/operationlog/entity/UserLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/controller/DeviceLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/web/log/devicelog/controller/DeviceLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/entity/BaseDeviceLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/web/log/devicelog/entity/BaseDeviceLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/entity/DeviceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/web/log/devicelog/entity/DeviceInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/service/DeviceLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/web/log/devicelog/service/DeviceLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/devicelog/service/impl/DeviceLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/web/log/devicelog/service/impl/DeviceLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/web/log/kafka/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/operationlog/entity/UserLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/web/log/operationlog/entity/UserLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/ids/web/log/util/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/web/log/util/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/spring/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/spring/config/kafka/KafkaInitialConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/java/com/xtt/log/spring/config/kafka/KafkaInitialConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-manager/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log-manager/src/test/java/com/xtt/LogManagerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-manager/src/test/java/com/xtt/LogManagerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/web/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/xtt/web/log/LogAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/xtt/web/log/LogAnnotation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.IdsApplication">
+  <component name="RunManager" selected="Spring Boot.LogManagerApplication">
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -218,7 +202,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xtt.ids.IdsApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xtt.log.IdsApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,9 +216,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.sky-ids:ids [bootJar]" />
       <item itemvalue="Spring Boot.LogManagerApplication" />
       <item itemvalue="Spring Boot.IdsApplication" />
-      <item itemvalue="Gradle.sky-ids:ids [bootJar]" />
     </list>
     <recent_temporary>
       <list>
@@ -261,6 +245,7 @@
       <workItem from="1615857877622" duration="14137000" />
       <workItem from="1615880791917" duration="5067000" />
       <workItem from="1615945363596" duration="19701000" />
+      <workItem from="1616029899272" duration="15945000" />
     </task>
     <task id="LOCAL-00001" summary="【新增】ids主业务服务">
       <created>1615858590369</created>

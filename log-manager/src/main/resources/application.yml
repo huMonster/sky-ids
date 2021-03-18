@@ -48,3 +48,7 @@ spring:
       #自动提交设置，如果消息队列中没有消息，等待timeout毫秒后，调用poll()方法。如果队列中有消息，立即消费消息，每次消费的消息的多少可以通过max.poll.records配置。
       poll-timeout: 3000
       topics: log-exception,log-operation,log-broadcast,log-onoff
+
+logFilePath: /data/log/
+
+logFlowPath: /data/log_flow/
