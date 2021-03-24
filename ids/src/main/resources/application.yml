@@ -2,5 +2,18 @@ server:
   port: 11000
   servlet:
     context-path: /ids
+logging:
+  config: classpath:logback-spring.xml
+  path: C:\Users\Administrator\Desktop\${spring.application.name}
+  level:
+    root: ERROR
+    com.xtt: DEBUG
+    org.springframework: ERROR
+    org.springframework.boot.autoconfigure: INFO
 
+spring:
+  profiles:
+    active: dev
+  application:
+    name: sky-ids
 

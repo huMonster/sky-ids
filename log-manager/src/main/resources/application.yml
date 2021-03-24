@@ -7,12 +7,12 @@ logging:
   config: classpath:logback-spring.xml
   file:
     path: /var/log/${spring.application.name}
+
   level:
     root: ERROR
     com.xtt: DEBUG
     org.springframework: ERROR
     org.springframework.boot.autoconfigure: INFO
-
 
 spring:
   profiles:

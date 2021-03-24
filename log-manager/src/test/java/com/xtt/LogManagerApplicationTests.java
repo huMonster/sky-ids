@@ -1,6 +1,6 @@
 package com.xtt;
 
-import com.xtt.log.web.log.operationlog.entity.UserLog;
+import com.xtt.ids.web.log.operationlog.entity.UserLog;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
