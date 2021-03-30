@@ -4,7 +4,7 @@ server:
     context-path: /ids
 logging:
   config: classpath:logback-spring.xml
-  path: C:\Users\Administrator\Desktop\${spring.application.name}
+  path: /var/log/${spring.application.name}
   level:
     root: ERROR
     com.xtt: DEBUG
